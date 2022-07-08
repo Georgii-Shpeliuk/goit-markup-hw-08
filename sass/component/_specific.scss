@@ -51,6 +51,9 @@
     text-transform: uppercase;
     color: $sec-fontcolor;
     margin-bottom: 10px;
+    @media screen and (max-width: 767px) {
+            text-align: center;
+        }
 }
 
 .specific__text {
