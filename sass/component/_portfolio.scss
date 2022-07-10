@@ -76,6 +76,11 @@
     @media screen and (min-width: 1200px) {
         flex-basis: calc((100% - 90px) / 3);
     }
+    &:first-child .description{
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        padding-bottom: 56px;
+    }
+}
 }
 
 .portfolio-list__thumb {
